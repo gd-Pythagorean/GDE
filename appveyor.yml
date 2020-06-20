@@ -1,0 +1,23 @@
+version: 1.0.{build}
+image: Visual Studio 2019 Preview
+environment:
+  WEBHOOK_URL:
+    secure: q6z83eHG/HIyVlXuoMdKwaOi8CvPXSB8/KeUwJwGF3MvR/VSRRv8x7r8A7mSFuCVweJMwaRx7Q+BBlANmCGCBfDuWa8gnTd7pBE2RHcxKtOOUzxnNiEHAWP8/wl8yYdj2oqaaH997kP++qhp94j2vLPbw2XmnVFSb181AXNzdo5yCD5KRJ0+iid4o1C+PKtp
+before_build:
+- ps: cd GDEdit; dotnet restore
+build:
+  project: GDEdit/GDEdit.sln
+  publish_nuget: true
+  publish_nuget_symbols: true
+  include_nuget_references: true
+  publish_core_console: true
+  parallel: true
+  verbosity: minimal
+on_failure:
+- ps: >-
+    Invoke-RestMethod https://raw.githubusercontent.com/AltenGD/appveyor-discord-webhook/master/send.ps1 -o send.ps1
+        ./send.ps1 failure $env:WEBHOOK_URL
+on_finish:
+- ps: >-
+    Invoke-RestMethod https://raw.githubusercontent.com/AltenGD/appveyor-discord-webhook/master/send.ps1 -o send.ps1
+        ./send.ps1 success $env:WEBHOOK_URL

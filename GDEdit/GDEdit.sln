@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28902.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GDE.App", "GDE.App\GDE.App.csproj", "{24C1B9AA-0575-4A8E-A693-DF1184ADAB42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GDE.Tests", "GDE.Tests\GDE.Tests.csproj", "{C8E29BC9-E2FE-4E76-ADF7-308BE0F18062}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GDE.Resources", "GDE.Resources\GDE.Resources.csproj", "{5997BD27-F378-4A22-A596-BB1A9AD0C77B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C1B9AA-0575-4A8E-A693-DF1184ADAB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C1B9AA-0575-4A8E-A693-DF1184ADAB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C1B9AA-0575-4A8E-A693-DF1184ADAB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C1B9AA-0575-4A8E-A693-DF1184ADAB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E29BC9-E2FE-4E76-ADF7-308BE0F18062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E29BC9-E2FE-4E76-ADF7-308BE0F18062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E29BC9-E2FE-4E76-ADF7-308BE0F18062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E29BC9-E2FE-4E76-ADF7-308BE0F18062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5997BD27-F378-4A22-A596-BB1A9AD0C77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5997BD27-F378-4A22-A596-BB1A9AD0C77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5997BD27-F378-4A22-A596-BB1A9AD0C77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5997BD27-F378-4A22-A596-BB1A9AD0C77B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D301916F-9BB5-4B25-9675-EAA77427EA83}
+	EndGlobalSection
+EndGlobal

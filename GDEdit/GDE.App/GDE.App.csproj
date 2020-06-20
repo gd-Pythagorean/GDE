@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Main\Panels\ObjSelection\**" />
+    <EmbeddedResource Remove="Main\Panels\ObjSelection\**" />
+    <None Remove="Main\Panels\ObjSelection\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GDAPI" Version="1.1.8" />
+    <PackageReference Include="ppy.squirrel.windows" Version="1.9.0.4" />
+    <PackageReference Include="ppy.osu.Framework" Version="2019.1029.0" />
+    <PackageReference Include="SharpRaven" Version="2.4.1-unstable0015" />
+    <PackageReference Include="SixLabors.Core" Version="1.0.0-beta0008" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GDE.Resources\GDE.Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DiscordRPC">
+      <HintPath>..\RPC\DiscordRPC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Main\Overlays\Level\" />
+  </ItemGroup>
+
+</Project>

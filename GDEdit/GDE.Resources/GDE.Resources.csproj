@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Fonts\**" />
+    <EmbeddedResource Remove="Fonts\**" />
+    <None Remove="Fonts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Textures\Backgrounds\game_bg_01_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_02_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_03_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_04_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_05_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_06_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_07_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_08_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_09_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_10_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_11_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_12_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_13_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_14_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_15_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_16_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_17_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_18_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_19_001-uhd.png" />
+    <None Remove="Textures\Backgrounds\game_bg_20_001-uhd.png" />
+    <None Remove="Textures\Objects\1.png" />
+    <None Remove="Textures\Objects\103.png" />
+    <None Remove="Textures\Objects\2.png" />
+    <None Remove="Textures\Objects\3.png" />
+    <None Remove="Textures\Objects\36.png" />
+    <None Remove="Textures\Objects\39.png" />
+    <None Remove="Textures\Objects\4.png" />
+    <None Remove="Textures\Objects\5.png" />
+    <None Remove="Textures\Objects\6.png" />
+    <None Remove="Textures\Objects\7.png" />
+    <None Remove="Textures\Objects\8.png" />
+    <None Remove="Textures\Objects\9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_01_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_02_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_03_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_04_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_05_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_06_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_07_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_08_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_09_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_10_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_11_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_12_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_13_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_14_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_15_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_16_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_17_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_18_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_19_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Backgrounds\game_bg_20_001-uhd.png" />
+    <EmbeddedResource Include="Textures\Objects\1.png" />
+    <EmbeddedResource Include="Textures\Objects\103.png" />
+    <EmbeddedResource Include="Textures\Objects\2.png" />
+    <EmbeddedResource Include="Textures\Objects\3.png" />
+    <EmbeddedResource Include="Textures\Objects\36.png" />
+    <EmbeddedResource Include="Textures\Objects\39.png" />
+    <EmbeddedResource Include="Textures\Objects\4.png" />
+    <EmbeddedResource Include="Textures\Objects\5.png" />
+    <EmbeddedResource Include="Textures\Objects\6.png" />
+    <EmbeddedResource Include="Textures\Objects\7.png" />
+    <EmbeddedResource Include="Textures\Objects\8.png" />
+    <EmbeddedResource Include="Textures\Objects\9.png" />
+  </ItemGroup>
+
+</Project>
